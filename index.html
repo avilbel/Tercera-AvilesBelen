@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Class 02</title>
+
+</head>
+
+<body>
+    
+    <!-- Header
+
+    -->
+    
+    <header>
+    <!--  NavBar
+        - va a hacer enlaces navegables
+        - redirecta al usario a diferentes paginas
+    -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html"> Inicio </a>
+                
+                </li>
+                <li>Trabajos</li>
+                <li>Servicios</li>
+                <li>Contactos</li>
+                <li>Nosostros</li
+            </ul>
+        </nav>
+    </header>
+    <section id = "top">
+<!--Enlaces Absolutos 
+    -  redirecionan al usario a un sitio externo a nuestro projecto 
+-->
+  <!-- etiquetas 
+- las etiquetas contienen atributos |   
+    - href - hipervinculo de referencia - ( a donde voy a dirigir el usario)--> 
+<!--Target
+    - con el valor blank nos permite que se abra este enlace en otra pestana
+    - opens a new window without exiting the current page you are in. you attach it to the the <a> link after href. 
+-->
+        <a href="http://www.lanacion.com"> La Nacion </a>
+ 
+    </section>
+    <section>
+<!--Enlaces Relativos:
+        - redireciona al usario a un archivo dentro de nuestro projecto. 
+-->
+    <a href="notas1.html">inscribirme</a>
+    
+    </section>
+
+    <section>
+<!-- Enlace Interno:
+    - redirecionar al usuario a una secion de este mismo archivo.
+    - tengo que darle un identificador unico
+    - ID = un atributo que se puede usar en todas las etiquetas
+-->
+
+        <a href="#top">Top</a>
+        <h1>Argentina campeón: así levantó la Copa del Mundo la selección argentina</h1>
+        <p>
+            Después del triunfo de la selección argentina ante Francia en la final de la Copa del Mundo, el equipo que dirige Lionel Scaloni levantó la copa que lo coronó campeón del Mundial Qatar 2022. En un contexto de mucha emoción y lágrimas, se dio la ceremonia de entrega de medallas encabezada por el presidente de la FIFA, Gianni Infantino.
+        </p>
+    </section>
+    <section>
+
+    <!-- Enlace Relaternos:
+        - me redireciona al usuario a otro archivo dentro de mi projecto y a una secion especifica dentro de ese otro archivo
+    -->
+    </section>
+    <section>
+        <!-- Imagenes Multimedia
+    - Imagenes:
+            -Img
+            - src - donde esta la imagen que quieres mostar.
+    - Alt :
+            -texto alternativo
+            - if img cant load - text will describe the img \
+            - limited description
+
+            1) si la ruta de la imagem se cae/rompe, se muestra texto alternativo para darle a entender al usuario de que se trataba ese elemento que no se puede ver
+            2) posicionamiento de la imgen- cuando el usario busca la imagen , segun el txto alternativo. la posision en la busqueda.
+            3) accesibilidad - sistema de apoyo - cuando gente no puede ver (en general) el software puede leer el texto alternativo para darle a la persona a description of the img.
+        -->
+
+<!-- Iframe
+    - nos da extractos dek codigo html de otro sitio 
+    - sirve para videos tambien
+    - audio aswell
+     
+
+
+-->
+        <img src ="mundial.webp" >
+
+    </section>
+
+
+    <footer>
+
+    </footer>
+
+
+
+
+
+
+</body>
+</html>
